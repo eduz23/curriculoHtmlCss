@@ -1,0 +1,26 @@
+.containerGeral {
+    display: flex;
+}
+
+
+.container1{
+    background-color: rgb(213, 255, 253);
+    height: 600px;
+    width: 5%
+}
+
+.container2{
+    background-color: gray;
+    height: 600px;
+    width: 35%;
+}
+
+.container3{
+    background-color: rgb(216, 216, 216);
+    height: 600px;
+    width: 60%;
+}
+
+.ImgWpp{
+    height: 25px;
+}
