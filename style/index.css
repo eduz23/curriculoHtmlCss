@@ -60,3 +60,14 @@
     gap: 8px;
     margin-bottom: 8px;
 }
+
+.informacoes{
+    font-size: 200%;
+    padding-left: 6px;
+}
+
+.educacao{
+    font-size: 200%;
+    padding-left: 6px;
+    padding: auto;
+}
