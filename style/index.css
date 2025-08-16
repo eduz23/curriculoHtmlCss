@@ -1,5 +1,6 @@
 .containerGeral {
     display: flex;
+    font-family: 'Roboto';
 }
 
 .imgAlanpa {
@@ -11,7 +12,7 @@
 
 .nome {
     margin: 10px 0;
-    padding-left: 6px;
+    padding-left: 25%;
 }
 
 .container1 {
@@ -20,9 +21,15 @@
     width: 5%;
 }
 
+.divDois hr{
+    height: 2%;
+    width: 48%;
+    background-color: black;
+}
+
 .container2 {
     background-color: rgba(19, 148, 165, 0.548);
-    height: 900px;
+    height: 880px;
     width: 35%;
     padding: 10px;
 }
@@ -64,10 +71,54 @@
 .informacoes{
     font-size: 200%;
     padding-left: 6px;
+    padding-bottom: 15px;
+}
+
+.informacoes #tituloInfo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
 }
 
 .educacao{
-    font-size: 200%;
+    font-size: 170%;
     padding-left: 6px;
     padding: auto;
+}
+
+.educacao h2{
+    margin: 0;
+}
+
+.educacaoTitulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.iconEdu{
+    height: 60px;
+}
+
+.experiencia #tituloExp{
+    padding-left: 6px;
+    font-size: 200%;
+}
+
+.experiencia #experiencia1{
+    padding-left: 6px;
+    font-size: 25px;
+    
+}
+
+#experiencia1 { 
+    margin-top: 15px;
+}
+
+.experiencia #senai{
+    margin-left: 6px;
+    font-size: 25px;
 }
