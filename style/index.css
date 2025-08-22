@@ -41,12 +41,19 @@
 }
 
 .contato div {
-    padding-left: 6px;
     display: flex;
     align-items: center;
     gap: 8px;
-    padding-bottom: 12px;
+    margin-bottom: 6px; /* antes estava 10px, diminui */
 }
+
+.contato p,
+.contato a {
+    margin: 0;      /* remove margem automática */
+    padding: 0;
+    line-height: 1.4; /* deixa mais compacto */
+}
+
 
 .icon {
     height: 25px;
@@ -83,7 +90,7 @@
 }
 
 .iconUser{
-    height: 60px;
+    height: 50px;
 }
 
 .educacao {
@@ -104,12 +111,13 @@
 }
 
 .iconEdu {
-    height: 60px;
+    height: 50px;
 }
 
 .experiencia {
     font-size: 170%;
     padding-left: 6px;
+    margin-bottom: 5px;
 }
 
 .experienciaTitulo {
@@ -124,16 +132,54 @@
 }
 
 .iconExp {
-    height: 60px;
+    height: 50px;
 }
 
 #experiencia1 {
     margin-top: 0px;
     font-size: 25px;
-
 }
 
 .experiencia #senai {
     margin-left: 0px;
     font-size: 25px;
+}
+
+.habilidades {
+    font-size: 170%;
+    padding-left: 6px;
+    margin-top: 10px;
+}
+
+.habilidadesTitulo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.iconHab {
+    height: 50px;
+}
+
+.habilidades ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+
+.experiencia h2,
+.experiencia p,
+.habilidades h2,
+.habilidades p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0; /* remove o espaçamento padrão do navegador */
+    font-size: 24px; /* define tamanho fixo */
+    font-weight: bold; /* mantém o destaque */
+    line-height: 1.3; /* altura da linha mais compacta */
 }
