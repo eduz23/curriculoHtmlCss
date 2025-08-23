@@ -19,8 +19,11 @@
 
 .container1 {
     background-color: rgba(102, 102, 102, 0.514);
+    background-color: rgba(102, 102, 102, 0.603);
     height: 900px;
-    width: 5%;  
+    width: 1%;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 .divDois hr {
@@ -37,9 +40,11 @@
 }
 
 .container3 {
-    background-color: rgba(197, 197, 197, 0.801);
+    background-color: rgba(197, 197, 197, 0.849);
     height: 900px;
-    width: 60%;
+    width: 64%;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .contato div {
@@ -93,8 +98,10 @@
 }
 
 .objetivoTitulo{
-    padding-left: 40%;
-    padding-top: 30px; 
+    padding-left: 38%;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 25px;
 }
 
 #paragrafo{
